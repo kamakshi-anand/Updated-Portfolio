@@ -6,9 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic-Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/Reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/mediaquery.css">
+
+
+    <style>
+        #two {
+            margin-right: 70px;
+        }
+
+        #five {
+            margin-right: 70px;
+        }
+    </style>
 
 
 </head>
@@ -32,67 +45,156 @@
 
         </h2>
     </header>
-    <h2 id="port">Portfolio</h2>
+    <!-- <h2 id="port">Portfolio</h2> -->
 
     <hr>
     <section id="gallery1">
         <table id="port_table">
             <tr>
-                <td class="first">
-                    <figure>
+                <div class="col-md-4">
+                    <td class="first">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/Image/wfc.hangmanimages.jpg" class="bioimage">
+                            <div class="card-body">
+                                <h5 class="card-title">Hangman</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                            </div>
 
-                        <img src="assets/Image/wfc.hangmanimages.jpg" class="bioimage">
-                        <figcaption>
-                            <a href="https://kamakshi-anand.github.io/Word-Guess-Game/index.html" target="_blank">Hangman
-                                Game</a>
-                        </figcaption>
-                    </figure>
-                </td>
-                <td>
-                    <figure>
-                        <img src="assets/Image/Screenshot (51).png" class="bioimage">
-                        <figcaption>
-                            <a href="https://kamakshi-anand.github.io/unit-4-game/index.html" target="_blank">Crystal Collector</a>
-                        </figcaption>
-                    </figure>
-                </td>
+                            <div class="card-body">
+
+                                <a href="https://kamakshi-anand.github.io/Word-Guess-Game/index.html" target="_blank" >
+                                    <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50" height="50">
+                                </a>
+
+                                <a href="https://github.com/kamakshi-anand/Word-Guess-Game"target="_blank">
+                                    <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50" height="50">
+                                </a>
+                            </div>
+                        </div>
+                    </td>
+                </div>
+                <div class="col-md-4">
+                    <td>
+                        <div class="card" id="two" style="width: 18rem;">
+                            <img src="assets/Image/Screenshot (51).png" class="bioimage">
+                            <div class="card-body">
+                                <h5 class="card-title">Crystal Collector</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                            </div>
+
+                            <div class="card-body">
+
+                                <a href="https://kamakshi-anand.github.io/unit-4-game/index.html" target="_blank" >
+                                    <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50" height="50"> 
+                                 </a>
+
+                                <a href="https://github.com/kamakshi-anand/unit-4-game/blob/master/README.md" target="_blank">
+                                    <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50" height="50">
+                                </a>
+                            </div>
+                        </div>
+                    </td>
+                </div>
+                <div class="col-md-4">
+                    <td>
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/Image/Screenshot (52).png" class="bioimage">
+                            <div class="card-body">
+                                <h5 class="card-title">Trivia-Game</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                            </div>
+
+                            <div class="card-body">
+
+                                
+                                <a href="https://kamakshi-anand.github.io/Trivia-Game/index.html" target="_blank">
+                                    <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50" height="50">                                   
+                                </a>
+                                <a href="https://github.com/kamakshi-anand/Trivia-Game/blob/master/README.md" target="_blank">
+                                    <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50" height="50">
+                                </a>
+
+                               
+                            </div>
+                        </div>
+
+                    </td>
+                </div>
             </tr>
             <tr>
                 <td class="second">
-                    <figure>
-                        <img src="assets/Image/Screenshot (52).png" class="bioimage">
-                        <figcaption>
-                            <a href="https://kamakshi-anand.github.io/Trivia-Game/index.html" target="_blank">Trivia-Game</a>
-                        </figcaption>
-                    </figure>
-                </td>
-                <td>
-                    <figure>
+                    <div class="card" style="width: 18rem;">
                         <img src="assets/Image/Screenshot (53).png" class="bioimage">
-                        <figcaption>
-                            <a href="https://kamakshi-anand.github.io/GifTastic/index.html" target="_blank">Giftastic</a>
-                        </figcaption>
-                    </figure>
-                </td>
-            </tr>
-            <tr>
-                <td class="third">
-                    <figure>
-                        <img src="assets/Image/Screenshot (54).png" class="bioimage">
-                        <figcaption>
-                            <a href="https://kamakshi-anand.github.io/Train-Scheduler/train.html" target="_blank">Train-Scheduler</a>
-                        </figcaption>
-                    </figure>
+                        <div class="card-body">
+                            <h5 class="card-title">Giftastic</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+
+                        <div class="card-body">
+
+                            <a href="https://kamakshi-anand.github.io/GifTastic/index.html" target="_blank">
+                                <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50" height="50"> 
+                            </a>
+
+                            <a href="https://github.com/kamakshi-anand/GifTastic/blob/master/README.md" target="_blank">
+                                <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50" height="50">
+                            </a>
+                        </div>
+                    </div>
                 </td>
                 <td>
-                    <figure>
+                    <div class="card" id="five" style="width: 18rem;">
+                        <img src="assets/Image/Screenshot (54).png" class="bioimage">
+                        <div class="card-body">
+                            <h5 class="card-title">Train-Scheduler</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+
+                        <div class="card-body">
+
+                            <a href="https://kamakshi-anand.github.io/Train-Scheduler/train.html" target="_blank" >
+                                <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50" height="50"> 
+                            </a>
+
+                            <a href="https://github.com/kamakshi-anand/Train-Scheduler" target="_blank">
+                                <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50" height="50">
+                            </a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card" style="width: 18rem;">
                         <img src="assets/Image/Screenshot (55).png" class="bioimage">
-                        <figcaption>
-                            <a href="https://github.com/LighthawkKnight/Trade-Game" target="_blank">Project-1_Tradegame</a>
-                        </figcaption>
-                    </figure>
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1-Trade-Game</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+
+                        <div class="card-body">
+
+                            <a href="https://lighthawkknight.github.io/Trade-Game/" target="_blank" >
+                                <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50" height="50"> 
+                            </a>
+
+                            <a href="https://github.com/LighthawkKnight/Trade-Game.git" target="_blank">
+                                <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50" height="50">
+                            </a>
+                        </div>
+                    </div>
+
                 </td>
             </tr>
+
+
+
+
+
         </table>
 
     </section>
